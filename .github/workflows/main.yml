@@ -1,0 +1,11 @@
+name: Run Python script
+on:
+  push:
+    branches:
+      - main
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Run Python script
+        run: python3 main.py
