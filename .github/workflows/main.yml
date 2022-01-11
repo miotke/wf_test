@@ -11,4 +11,4 @@ jobs:
         with:
           python-version: '3.7.7'
       - name: run script
-        run: python main.py
+        run: python main.py stuff
