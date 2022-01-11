@@ -9,5 +9,6 @@ jobs:
     steps:
       - uses: actions/setup-python@v2
         with:
-          script: |
-            print("Hello, actions?") 
+          python-version: '3.7.7'
+      - name: run script
+        run: python3 main.py
