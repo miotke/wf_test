@@ -8,5 +8,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/setup-python@v2
-      - name: Run Python script
-        run: python3 main.py
+        with:
+          script: |
+            print("Hello, actions?") 
