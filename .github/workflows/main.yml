@@ -1,7 +1,7 @@
 name: Run Python script
 on:
   schedule: 
-    - cron: '35 9 * * 1-5'
+    - cron: '* * * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
