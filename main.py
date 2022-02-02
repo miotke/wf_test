@@ -7,7 +7,7 @@ def main():
     parser = argparse.ArgumentParser(description="Argparse learning CLI tool")
 
     # Available arguments. All arguments are optional
-    parser.add_argument("stuff", nargs="?", help="Helps create Okta groups used as Google groups")
+    parser.add_argument("stuff", nargs="?", help="Does stuff...nothing of importance")
 
     if sys.argv[1] == "stuff":
         do_stuff()
