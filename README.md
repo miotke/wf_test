@@ -1,2 +1,3 @@
 # wf_test
-Testing workflows
+
+A testing ground for GitHub Workflows/GitHub Actions.
