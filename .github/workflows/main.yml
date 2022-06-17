@@ -1,10 +1,10 @@
 name: Run Python script
 on:
-  pull_request:
+  pull_request
 #   push:
 #     branches:
 #       - 'main'
-#   schedule: 
+#   schedule:
 #     - cron: '0 1 * * 1-5'
 jobs:
   build:
